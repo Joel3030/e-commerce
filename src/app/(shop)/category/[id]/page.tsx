@@ -1,7 +1,11 @@
+import { notFound } from "next/navigation";
+
 export default function CategoryPage() {
-	return (
-		<div>
-			<h1>Category Page</h1>
-		</div>
-	);
+  notFound();
+
+  return (
+    <div>
+      <h1>Category Page</h1>
+    </div>
+  );
 }

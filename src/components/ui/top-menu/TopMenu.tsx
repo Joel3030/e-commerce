@@ -6,7 +6,7 @@ export const TopMenu = () => {
     <nav className="flex w-full items-center justify-between px-5">
       <div>
         <Link href={"/"}>
-          <span className="font-bold antialiased">E-commerce</span>
+          <span className="font-bold">E-commerce</span>
         </Link>
       </div>
       <div className="hidden sm:block">
