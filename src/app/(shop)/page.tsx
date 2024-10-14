@@ -1,5 +1,9 @@
-import React from 'react';
+import { Title } from "@/components";
 
-export default function ShopPage() {
-	return <div>ShopPage</div>;
+export default function Home() {
+  return (
+    <>
+      <Title title="Store" subTitle="All products" className="mb-2" />
+    </>
+  );
 }
